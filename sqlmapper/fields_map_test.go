@@ -18,12 +18,6 @@ type MysqlDB struct {
 	db *sql.DB
 }
 
-type TestStruct struct {
-	Name string `sql:"name"`
-	Age  int64  `sql:"age"`
-	Sex  string `sql:"sex"`
-}
-
 func Test_FieldsMap_GetTagIndex(t *testing.T) {
 	Convey("test FieldsMap GetTagIndex", t, func() {
 		test := &TestStruct{}

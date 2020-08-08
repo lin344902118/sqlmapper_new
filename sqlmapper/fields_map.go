@@ -2,6 +2,7 @@
 // between golang struct and table rows in db
 // @author arthas29
 // https://github.com/arthas29/sqlmapper
+// todo 添加指针支持，联表查询等
 
 package sqlmapper
 
